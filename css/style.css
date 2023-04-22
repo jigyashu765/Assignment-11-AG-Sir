@@ -1,0 +1,327 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Josefin Sans', sans-serif;
+	box-sizing: border-box;
+}
+.main_page{
+	height: 98.7vh;
+	width: 100%;
+	background-image: url("../img/background.jpg");
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px 8% 0px 8%;
+}
+
+.logo-section{
+ display: flex;
+ align-items: center;
+ 
+}
+
+.logo{
+	cursor: pointer;
+}
+
+.logo img{
+	height: 100px;
+}
+
+.Logo-name{
+	font-size: 25px;
+	margin: 10px;
+	color: rgb(0, 0, 0);
+	text-align: center;
+	text-decoration: underline;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
+span{
+	color:  #ff0000;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px  25px;
+}
+nav ul li a{
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+	font-size: 25px;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+ul li a:hover{
+	color:  #ff0000;
+	transition: .4s;
+}
+.btn{
+	background-color: #ff0000;
+	color: rgb(14, 14, 14);
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 10px 25px;
+	border-radius: 30px;
+	transition: transform .4s; 
+}
+.btn:hover{
+	transform: scale(1.2);
+}
+.content{
+	position: absolute;
+	top: 50%;
+	left:8%;
+	transform: translateY(-50%);
+}
+
+.content a{
+	color:  #ff0000;
+	text-decoration: none;
+}
+h1{
+	color: white;
+	margin: 20px 0px 20px;
+	font-size: 65px;
+}
+h3{
+	color: white;
+	font-size: 25px;
+	margin-bottom: 50px;
+}
+h4{
+	letter-spacing: 2px;
+	font-size: 20px;
+}
+
+h5{
+	color: white;
+	font-size: 23px;
+	margin-bottom: 15px;
+}
+
+.about{
+	width: 100%;
+	padding: 100px 0px;
+	background-color: #072729;
+}
+.about img{
+	height: auto;
+	width: 530px;
+}
+.about-text{
+	width: 450px;
+}
+.main{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.about-text h2{
+	color: white;
+	font-size: 65px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+.about-text h5{
+	color: white;
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin-bottom: 25px;
+	text-transform: capitalize;
+}
+.about-text p{
+	color: #fcfc;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 18px;
+	margin-bottom: 45px;
+}
+button{
+	background-color: #ff0000;
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+button:hover{
+	background-color: transparent;
+	color: rgb(255, 255, 255);
+	border: 2px solid  #ff0000;
+	cursor: pointer;
+}
+
+footer{
+	position: relative;
+	width: 100%;
+	height: 250px;
+	background: #001317;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+footer p:nth-child(1){
+	font-size: 30px;
+	color: white;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+footer p:nth-child(2){
+	color: white;
+	font-size: 20px;
+	width: 500px;
+	text-align: center;
+	line-height: 26px;
+}
+
+.end{
+	position: absolute;
+	color: #ff0000;
+	bottom: 35px;
+	font-size: 18px; 
+}
+
+/* Academics Page */
+
+.page nav{
+	background-color: #072729;
+}
+
+.page nav a{
+	color: white;
+}
+
+.page .Logo-name{
+	color: white;
+}
+
+/* Admission page */
+
+.admission{
+	width: 50%;
+	margin: -80px auto 0px auto;
+	color: white;
+}
+
+.admission h1{
+	text-align: center;
+}
+
+form {
+	max-width: 600px;
+	margin: auto;
+	padding: 20px;
+	border: 1px solid #ff0000;
+	border-radius: 5px;
+}
+
+input, select, textarea {
+	width: 100%;
+	padding: 12px;
+	border-radius: 4px;
+	resize: vertical;
+}
+
+input[type=radio] {
+	width: min-content;
+}
+
+.admission button{
+	margin: 0px 25px;
+	width: 40%;
+}
+
+/* Gallery Page */
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	margin: -90px 0 20px 0;
+	justify-content: center;
+}
+
+.gallery div{
+	text-align: center;
+}
+.gallery img {
+	max-width: 300px;
+	margin: 10px;
+	border-radius: 5px;
+	transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+	transform: scale(1.02);
+}
+
+/* Academics Page */
+
+.admission ul{
+	margin: 15px auto;
+	font-size: 20px;
+}
+
+.admission ul li{
+	margin: 7px auto;
+	text-indent: 10px;
+}
+
+.admission ul li a{
+	color: white;
+	text-decoration: none;
+}
+
+.admission ul li a:hover{
+	color:  #ff0000;
+	transition: .4s;
+}
+
+/* English Page */
+
+table {
+	margin: 20px auto;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+table h2{
+	display: block;
+	text-align: center;
+}
+
+th, td {
+	text-align: left;
+	padding: 8px;
+	border: 1px solid #ff0000;
+}
+
+th {
+	background-color: #000000;
+}
+
+td li{
+	margin: 10px;
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+.sub-para{
+	margin: 25px 0px;
+}

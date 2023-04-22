@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Admission | Ranchi University</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+	<!----1st Section start---->
+	<div class="page">
+		<nav>
+			<div class="logo-section">
+				<a class="logo" href="index.html"><img src="img/RU Logo.png" alt="Ranchi University Logo"></a>
+				<p class="Logo-name">Ranchi University</p>
+			</div>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="Academics.html">Academics</a></li>
+				<li><a href="Admission.html">Admission</a></li>
+				<li><a href="Gallery.html">Gallery</a></li>
+			</ul>
+		</nav>
+	</div>
+
+    <!------Main Content--------->
+	<div class="about">
+		<div class="admission">
+			<h1>Ranchi University <span>Admission Form</span></h1>
+			<form>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required><br><br>
+				
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required><br><br>
+				
+				<label for="phone">Phone:</label>
+				<input type="tel" id="phone" name="phone" required><br><br>
+				
+				<label for="address">Address:</label>
+				<textarea id="address" name="address" required></textarea><br><br>
+				
+				<label for="dob">Date of Birth:</label>
+				<input type="date" id="dob" name="dob" required><br><br>
+				
+				<label for="gender">Gender:</label>
+				<input type="radio" id="male" name="gender" value="male" required>
+				<label for="male">Male</label>
+				<input type="radio" id="female" name="gender" value="female" required>
+				<label for="female">Female</label><br><br>
+				
+				<label for="course">Course:</label>
+				<select id="course" name="course" required>
+					<option value="">--Select Course--</option>
+					<option value="B.Tech">B.Tech</option>
+					<option value="B.Sc">B.Sc</option>
+					<option value="B.Com">B.Com</option>
+				</select><br><br>
+				
+				<label for="semester">Semester:</label>
+				<select id="semester" name="semester" required>
+					<option value="">--Select Semester--</option>
+					<option value="1st">1st</option>
+					<option value="2nd">2nd</option>
+					<option value="3rd">3rd</option>
+					<option value="4th">4th</option>
+					<option value="5th">5th</option>
+					<option value="6th">6th</option>
+					<option value="7th">7th</option>
+					<option value="8th">8th</option>
+				</select><br><br>
+				
+				<label for="year">Year of Passing:</label>
+				<input type="number" id="year" name="year" min="1950" max="2023" required><br><br>
+				
+				<label for="marks">Percentage of Marks:</label>
+				<input type="number" id="marks" name="marks" min="0" max="100" required><br><br>
+				
+				<button type="submit" value="Submit">Submit</button>
+				<button type="reset" value="Reset">Reset</button>
+			</form>
+		</div>
+	
+</div>
+
+	<!------footer start--------->
+	<footer>
+		<p>Ranchi University</p>
+		<p>Welcome you to visit in Our Campus</p>
+		<p class="end"> &#169; Copyright 2022-23 by Ranchi University.</p>
+	</footer>
+</body>
+
+</html>
